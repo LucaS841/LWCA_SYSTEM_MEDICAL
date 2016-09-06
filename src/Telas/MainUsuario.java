@@ -191,25 +191,25 @@ public class MainUsuario extends javax.swing.JFrame {
 
     private void CadPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadPacienteActionPerformed
        CadPaciente cadcadastra = new CadPaciente();
-       this.dpContenedor2.add(cadcadastra);
+       this.dpContenedor.add(cadcadastra);
        cadcadastra.show();
     }//GEN-LAST:event_CadPacienteActionPerformed
 
     private void CadConsultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadConsultaActionPerformed
         CadConsulta cadconsulta = new CadConsulta();
-         this.dpContenedor2.add(cadconsulta);
+         this.dpContenedor.add(cadconsulta);
          cadconsulta.show();
     }//GEN-LAST:event_CadConsultaActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
        ConsultAgenda consultagenda = new ConsultAgenda();
-         this.dpContenedor2.add(consultagenda);
+         this.dpContenedor.add(consultagenda);
          consultagenda.show();
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
         ConsultPaci consultpaciente = new ConsultPaci();
-         this.dpContenedor2.add(consultpaciente);
+         this.dpContenedor.add(consultpaciente);
          consultpaciente.show();
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
@@ -217,9 +217,11 @@ public class MainUsuario extends javax.swing.JFrame {
     * @param args the command line arguments
     */
     public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
+        //java.awt.EventQueue.invokeLater(new Runnable() {
+
+           
             
-        });
+        //});
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
