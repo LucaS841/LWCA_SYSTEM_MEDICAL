@@ -9,12 +9,12 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.print.*;
-
+/*
 public class ImprimirQR implements Printable, ActionListener {
 
     int[] pageBreaks;  // array of page break line positions.
 
-    /* Synthesise some sample lines of text */
+    /* Synthesise some sample lines of text 
     String[] textLines;
     private void initTextLines() {
         if (textLines == null) {
@@ -50,13 +50,13 @@ public class ImprimirQR implements Printable, ActionListener {
         /* User (0,0) is typically outside the imageable area, so we must
          * translate by the X and Y values in the PageFormat to avoid clipping
          * Since we are drawing text we
-         */
+         
         Graphics2D g2d = (Graphics2D)g;
         g2d.translate(pf.getImageableX(), pf.getImageableY());
 
         /* Draw each line that is on this page.
          * Increment 'y' position by lineHeight for each line.
-         */
+         
         int y = 0; 
         int start = (pageIndex == 0) ? 0 : pageBreaks[pageIndex-1];
         int end   = (pageIndex == pageBreaks.length)
@@ -66,7 +66,7 @@ public class ImprimirQR implements Printable, ActionListener {
             g.drawString(textLines[line], 0, y);
         }
 
-        /* tell the caller that this page is part of the printed document */
+        /* tell the caller that this page is part of the printed document 
         return PAGE_EXISTS;
     }
 
@@ -78,7 +78,7 @@ public class ImprimirQR implements Printable, ActionListener {
              try {
                   job.print();
              } catch (PrinterException ex) {
-              /* The job did not successfully complete */
+              /* The job did not successfully complete 
              }
          }
     }
@@ -100,4 +100,4 @@ public class ImprimirQR implements Printable, ActionListener {
         f.pack();
         f.setVisible(true);
     }
-}
+}*/
